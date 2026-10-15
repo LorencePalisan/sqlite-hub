@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="246 132 760 720">
+  <title>SQLite Hub</title>
+  <defs>
+    <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="260" y1="180" x2="1000" y2="820">
+      <stop offset="0" stop-color="#16d6d2"/>
+      <stop offset="0.5" stop-color="#1a8ae6"/>
+      <stop offset="1" stop-color="#0b46a8"/>
+    </linearGradient>
+    <linearGradient id="body" gradientUnits="userSpaceOnUse" x1="462" y1="420" x2="792" y2="800">
+      <stop offset="0" stop-color="#14d2e2"/>
+      <stop offset="0.5" stop-color="#1585e2"/>
+      <stop offset="1" stop-color="#0a3f96"/>
+    </linearGradient>
+  </defs>
+  <g stroke="url(#g)" stroke-width="24">
+    <path d="M626 300V372"/>
+    <path d="M322 438L447 503M930 437L807 503M338 750L447 657M913 745L807 657"/>
+  </g>
+  <g fill="url(#g)">
+    <circle cx="626" cy="248" r="64"/>
+    <circle cx="322" cy="438" r="62"/>
+    <circle cx="930" cy="437" r="62"/>
+    <circle cx="338" cy="750" r="60"/>
+    <circle cx="913" cy="745" r="60"/>
+  </g>
+  <g fill="url(#body)">
+    <ellipse cx="627" cy="437" rx="165" ry="55"/>
+    <path d="M462 449A165 55 0 0 0 792 449V545A165 55 0 0 1 462 545Z"/>
+    <path d="M462 557A165 55 0 0 0 792 557V650A165 55 0 0 1 462 650Z"/>
+    <path d="M462 662A165 55 0 0 0 792 662V745A165 55 0 0 1 462 745Z"/>
+  </g>
+</svg>

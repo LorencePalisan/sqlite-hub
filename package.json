@@ -1,0 +1,12 @@
+{
+  "name": "sqlite-hub",
+  "private": true,
+  "workspaces": ["server", "web"],
+  "scripts": {
+    "dev": "bun run --filter '*' dev",
+    "build": "bun run --filter web build",
+    "start": "bun run build && NODE_ENV=production bun server/src/index.ts",
+    "seed": "bun server/src/seed.ts",
+    "test": "cd server && bun test"
+  }
+}
